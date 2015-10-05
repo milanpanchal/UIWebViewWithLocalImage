@@ -14,6 +14,14 @@
 		E00549921BC29F1D00386B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00549911BC29F1D00386B0F /* Images.xcassets */; };
 		E00549951BC29F1D00386B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00549931BC29F1D00386B0F /* LaunchScreen.xib */; };
 		E00549A11BC29F1E00386B0F /* UIWebViewWithLocalImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00549A01BC29F1E00386B0F /* UIWebViewWithLocalImageTests.m */; };
+		E00549AC1BC29F3600386B0F /* NSURLProtocolCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = E00549AB1BC29F3600386B0F /* NSURLProtocolCustom.m */; };
+		E00549AD1BC29F3600386B0F /* NSURLProtocolCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = E00549AB1BC29F3600386B0F /* NSURLProtocolCustom.m */; };
+		E00549AF1BC2A06A00386B0F /* Index.html in Resources */ = {isa = PBXBuildFile; fileRef = E00549AE1BC2A06A00386B0F /* Index.html */; };
+		E00549B01BC2A06A00386B0F /* Index.html in Resources */ = {isa = PBXBuildFile; fileRef = E00549AE1BC2A06A00386B0F /* Index.html */; };
+		E00549B21BC2A0F200386B0F /* yes_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00549B11BC2A0F200386B0F /* yes_btn@2x.png */; };
+		E00549B31BC2A0F200386B0F /* yes_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00549B11BC2A0F200386B0F /* yes_btn@2x.png */; };
+		E00549B51BC2A10400386B0F /* call_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00549B41BC2A10400386B0F /* call_icon@2x.png */; };
+		E00549B61BC2A10400386B0F /* call_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00549B41BC2A10400386B0F /* call_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,11 @@
 		E005499A1BC29F1E00386B0F /* UIWebViewWithLocalImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewWithLocalImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E005499F1BC29F1E00386B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E00549A01BC29F1E00386B0F /* UIWebViewWithLocalImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewWithLocalImageTests.m; sourceTree = "<group>"; };
+		E00549AA1BC29F3600386B0F /* NSURLProtocolCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLProtocolCustom.h; sourceTree = "<group>"; };
+		E00549AB1BC29F3600386B0F /* NSURLProtocolCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLProtocolCustom.m; sourceTree = "<group>"; };
+		E00549AE1BC2A06A00386B0F /* Index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Index.html; sourceTree = "<group>"; };
+		E00549B11BC2A0F200386B0F /* yes_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yes_btn@2x.png"; sourceTree = "<group>"; };
+		E00549B41BC2A10400386B0F /* call_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +98,8 @@
 				E00549891BC29F1D00386B0F /* AppDelegate.m */,
 				E005498B1BC29F1D00386B0F /* ViewController.h */,
 				E005498C1BC29F1D00386B0F /* ViewController.m */,
+				E00549AA1BC29F3600386B0F /* NSURLProtocolCustom.h */,
+				E00549AB1BC29F3600386B0F /* NSURLProtocolCustom.m */,
 				E005498E1BC29F1D00386B0F /* Main.storyboard */,
 				E00549911BC29F1D00386B0F /* Images.xcassets */,
 				E00549931BC29F1D00386B0F /* LaunchScreen.xib */,
@@ -96,6 +111,9 @@
 		E00549841BC29F1D00386B0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E00549B11BC2A0F200386B0F /* yes_btn@2x.png */,
+				E00549B41BC2A10400386B0F /* call_icon@2x.png */,
+				E00549AE1BC2A06A00386B0F /* Index.html */,
 				E00549851BC29F1D00386B0F /* Info.plist */,
 				E00549861BC29F1D00386B0F /* main.m */,
 			);
@@ -199,8 +217,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E00549B51BC2A10400386B0F /* call_icon@2x.png in Resources */,
 				E00549901BC29F1D00386B0F /* Main.storyboard in Resources */,
+				E00549AF1BC2A06A00386B0F /* Index.html in Resources */,
 				E00549951BC29F1D00386B0F /* LaunchScreen.xib in Resources */,
+				E00549B21BC2A0F200386B0F /* yes_btn@2x.png in Resources */,
 				E00549921BC29F1D00386B0F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E00549B61BC2A10400386B0F /* call_icon@2x.png in Resources */,
+				E00549B01BC2A06A00386B0F /* Index.html in Resources */,
+				E00549B31BC2A0F200386B0F /* yes_btn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E005498D1BC29F1D00386B0F /* ViewController.m in Sources */,
+				E00549AC1BC29F3600386B0F /* NSURLProtocolCustom.m in Sources */,
 				E005498A1BC29F1D00386B0F /* AppDelegate.m in Sources */,
 				E00549871BC29F1D00386B0F /* main.m in Sources */,
 			);
@@ -230,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00549A11BC29F1E00386B0F /* UIWebViewWithLocalImageTests.m in Sources */,
+				E00549AD1BC29F3600386B0F /* NSURLProtocolCustom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

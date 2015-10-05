@@ -7,16 +7,31 @@
 //
 
 #import "ViewController.h"
+#import "NSURLProtocolCustom.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 
 @implementation ViewController
 
+#pragma mark - View life cycle
+
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    [NSURLProtocol registerClass:[NSURLProtocolCustom class]];
+    
+    NSString *localHtmlFilePath = [[NSBundle mainBundle] pathForResource:@"Index" ofType:@"html"];
+    
+    NSString *localHtmlFileURL = [NSString stringWithFormat:@"file://%@", localHtmlFilePath];
+    
+    [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:localHtmlFileURL]]];
+    
+    NSString *html = [NSString stringWithContentsOfFile:localHtmlFilePath encoding:NSUTF8StringEncoding error:nil];
+    
+    [_webView loadHTMLString:html baseURL:nil];
 }
 
 - (void)didReceiveMemoryWarning {

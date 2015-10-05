@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D5178366-6004-487E-BFFA-2DD9E15F7758</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>f16fea6b-3e41-49fe-bc27-7895c11f2be1</key>
+		<string>https://pl3.projectlocker.com/PocketApp/GoU_iOS/svn</string>
+		<key>f16fea6b-3e41-49fe-bc27-7895c11f2be1++3128</key>
+		<string>https://pl3.projectlocker.com/PocketApp/GoU_iOS/svn/UIWebViewWithLocalImage</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIWebViewWithLocalImage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>f16fea6b-3e41-49fe-bc27-7895c11f2be1</key>
+		<string>../../..</string>
+		<key>f16fea6b-3e41-49fe-bc27-7895c11f2be1++3128</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>f16fea6b-3e41-49fe-bc27-7895c11f2be1++3128</key>
+		<string>https://pl3.projectlocker.com/PocketApp/GoU_iOS/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://pl3.projectlocker.com/PocketApp/GoU_iOS/svn/UIWebViewWithLocalImage/UIWebViewWithLocalImage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>f16fea6b-3e41-49fe-bc27-7895c11f2be1++3128</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f16fea6b-3e41-49fe-bc27-7895c11f2be1</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f16fea6b-3e41-49fe-bc27-7895c11f2be1++3128</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIWebViewWithLocalImage</string>
+		</dict>
+	</array>
+</dict>
+</plist>
